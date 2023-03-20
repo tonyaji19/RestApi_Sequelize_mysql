@@ -7,9 +7,6 @@ import {
   deleteMahasiswa,
   deleteMahasiswabiasa,
 } from "../controllers/mahasiswaController.js";
-import multer from "multer";
-
-const upload = multer({ dest: "public/images/" });
 
 const router = express.Router();
 
