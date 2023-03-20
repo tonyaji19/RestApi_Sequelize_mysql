@@ -11,7 +11,7 @@ import {
 const router = express.Router();
 
 router.get("/mahasiswa", getMahasiswa);
-router.post("/mahasiswa", upload.single("image"), addMahasiswa);
+router.post("/mahasiswa", addMahasiswa);
 router.get("/mahasiswa/:id", getMahasiswaById);
 router.patch("/mahasiswa/:id", updateMahasiswa);
 router.delete("/mahasiswa/:id", deleteMahasiswa);
