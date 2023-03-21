@@ -10,6 +10,6 @@ app.use(express.static("public"));
 app.use(cors());
 app.use(Router);
 
-app.listen(process.env.PORT || 9000, () =>
-  console.log("Server running at http://localhost:9000")
+app.listen(process.env.PORT || 3306, () =>
+  console.log("Server running at http://localhost:3306")
 );
