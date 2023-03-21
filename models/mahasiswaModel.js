@@ -2,6 +2,7 @@ import { Sequelize } from "sequelize";
 import db from "../config/Connect.js";
 
 const { DataTypes } = Sequelize;
+// const db = require("../config/Connect.js");
 
 const Mahasiswa = db.define(
   "informatika",
